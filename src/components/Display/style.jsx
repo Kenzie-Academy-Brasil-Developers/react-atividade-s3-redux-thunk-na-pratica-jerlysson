@@ -7,28 +7,27 @@ export const Container = styled.div`
   border-radius: 2em;
   display: flex;
   flex-direction: column;
-  ul {
-    padding: 0;
-    word-break: break-word;
-    height: 60%;
-    align-items: end;
-    justify-content: flex-end;
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    margin: 0 auto 20px;
-    border-radius: 20px;
-    box-sizing: 0 0 2px;
-    box-shadow: 0 2px 5px;
-    font-family: "Nanum Gothic", sans-serif;
-    li {
-      list-style: none;
-      background-color: #a1a1cc45;
-      font-size: 18px;
-      padding: 3px;
-      border-radius: 10px;
-      margin: 2px;
-    }
+`;
+export const BoxText = styled.div`
+  overflow: auto;
+  padding: 0;
+  word-break: break-word;
+  height: 60%;
+  align-items: end;
+  justify-content: flex-end;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto 20px;
+  border-radius: 20px;
+  box-shadow: 0 2px 5px;
+  font-family: "Nanum Gothic", sans-serif;
+  p {
+    list-style: none;
+    background-color: #a1a1cc45;
+    font-size: 18px;
+    border-radius: 10px;
+    margin: 0 20px;
   }
 `;
 export const UserBox = styled.div`

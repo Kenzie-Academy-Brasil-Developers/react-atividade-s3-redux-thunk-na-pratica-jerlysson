@@ -1,4 +1,3 @@
-import { Button } from "@material-ui/core";
 import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { addCommentThunk } from "../../store/modules/user/thunks";
